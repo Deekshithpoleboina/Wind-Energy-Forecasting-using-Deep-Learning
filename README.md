@@ -20,10 +20,6 @@ This project aims to:
 
 The dataset contains time-series wind speed measurements. Here's a quick look at the data and its characteristics.
 
-### 📈 Wind Speed Over Time
-
-![Wind Speed Graph](images/wind_speed_over_time.png)
-
 *The graph shows fluctuations in wind speed over the recorded period.*
 
 ### 🔍 Correlation Heatmap
@@ -120,8 +116,14 @@ The model performs well in predicting short-term wind speed and power with minim
 
 ### 📈 Predicted vs Actual Wind Speed
 
-![Prediction vs Actual](![Screenshot 2025-05-27 120511](https://github.com/user-attachments/assets/14ffa8b2-9e26-4cf9-a85f-676c35556fcf)
-)
+![Screenshot 2025-05-27 120511](https://github.com/user-attachments/assets/14ffa8b2-9e26-4cf9-a85f-676c35556fcf)
+![Screenshot 2025-05-27 120553](https://github.com/user-attachments/assets/353ef672-985f-4e23-a69e-18a938241b35)
+![Screenshot 2025-05-27 120610](https://github.com/user-attachments/assets/1cd3865a-88ec-4711-8cff-d4df2344c65c)
+![Screenshot 2025-05-27 120625](https://github.com/user-attachments/assets/8c85809f-2baa-429f-b7c1-b88749f49e75)
+
+
+
+
 
 *The model captures the trend of actual wind speeds accurately.*
 
