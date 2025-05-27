@@ -24,7 +24,7 @@ The dataset contains time-series wind speed measurements. Here's a quick look at
 
 ### 🔍 Correlation Heatmap
 
-(![Screenshot 2025-05-27 121410](https://github.com/user-attachments/assets/c67403c9-7274-49a0-afbc-3ac05df2007f)
+[Screenshot 2025-05-27 121410](https://github.com/user-attachments/assets/c67403c9-7274-49a0-afbc-3ac05df2007f)
 
 
 *A heatmap to visualize the correlation between features, helping in feature selection.*
