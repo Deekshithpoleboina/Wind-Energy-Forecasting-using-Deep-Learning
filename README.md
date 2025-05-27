@@ -42,46 +42,6 @@ We use a Recurrent Neural Network (RNN) with LSTM cells, which are ideal for tim
 - LSTM layers followed by Dense output layer.
 - Trained using Mean Squared Error (MSE) loss.
 
-
-## 🧪 Results
-
-The model performs well in predicting short-term wind speed and power with minimal error.
-
-### 📈 Predicted vs Actual Wind Speed
-
-![Prediction vs Actual](# 🌬️ Wind Energy Forecasting using Deep Learning
-
-This project presents a deep learning-based approach for forecasting wind energy generation using historical wind data. We build and evaluate an LSTM (Long Short-Term Memory) neural network to predict future wind speeds and power output based on past patterns.
-
----
-
-## 📌 Project Overview
-
-Wind energy is a crucial component of sustainable power generation. However, due to its intermittent nature, forecasting wind power is essential for grid stability and energy planning.
-
-This project aims to:
-- Preprocess and visualize wind data.
-- Engineer features and handle missing values.
-- Train a time-series deep learning model (LSTM).
-- Evaluate model performance and visualize results.
-
----
-
-## 📊 Data Exploration
-
-The dataset contains time-series wind speed measurements. Here's a quick look at the data and its characteristics.
-
-## 🧠 Model Architecture
-
-We use a Recurrent Neural Network (RNN) with LSTM cells, which are ideal for time-series prediction tasks.
-
-### Model Highlights:
-
-- Scaled and reshaped data into time sequences.
-- Used 80% for training and 20% for testing.
-- LSTM layers followed by Dense output layer.
-- Trained using Mean Squared Error (MSE) loss.
-
 ## 🧪 Results
 
 The model performs well in predicting short-term wind speed and power with minimal error.
