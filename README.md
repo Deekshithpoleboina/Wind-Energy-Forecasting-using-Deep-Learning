@@ -26,5 +26,5 @@ This project uses a deep learning approach to forecast wind energy generation ba
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/wind-energy-forecasting.git
+   git clone [https://github.com/Deekshithpoleboina/Wind-Energy-Forecasting-using-Deep-Learning]
    cd wind-energy-forecasting
