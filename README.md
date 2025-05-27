@@ -1,29 +1,83 @@
-# Wind Energy Forecasting using Deep Learning
+# 🌬️ Wind Energy Forecasting using Deep Learning
 
-This project uses a deep learning approach to forecast wind energy generation based on historical wind data. The main notebook includes data preprocessing, feature engineering, model training using LSTM (or other RNN-based architectures), and evaluation of results.
+This project presents a deep learning-based approach for forecasting wind energy generation using historical wind data. We build and evaluate an LSTM (Long Short-Term Memory) neural network to predict future wind speeds and power output based on past patterns.
 
-## 📂 Files
+---
 
-- `research_DL.ipynb`: The main Jupyter notebook with the entire workflow from data loading to model evaluation.
-- `Wind Data.csv`: The dataset containing historical wind measurements used for training and testing the model.
+## 📌 Project Overview
 
-## 📊 Project Goals
+Wind energy is a crucial component of sustainable power generation. However, due to its intermittent nature, forecasting wind power is essential for grid stability and energy planning.
 
-- Understand wind energy patterns from historical data.
-- Develop a deep learning model (e.g., LSTM) to predict future wind energy outputs.
-- Evaluate model performance using appropriate metrics such as RMSE or MAE.
+This project aims to:
+- Preprocess and visualize wind data.
+- Engineer features and handle missing values.
+- Train a time-series deep learning model (LSTM).
+- Evaluate model performance and visualize results.
 
-## 🛠 Technologies Used
+---
 
-- Python
-- TensorFlow / Keras (or PyTorch, depending on your code)
-- NumPy
-- Pandas
-- Matplotlib / Seaborn (for visualization)
+## 📊 Data Exploration
 
-## 🔧 Setup
+The dataset contains time-series wind speed measurements. Here's a quick look at the data and its characteristics.
 
-1. Clone the repository:
+### 📈 Wind Speed Over Time
 
-   ```bash
-   git clone [https://github.com/Deekshithpoleboina/Wind-Energy-Forecasting-using-Deep-Learning]
+![Wind Speed Graph](images/wind_speed_over_time.png)
+
+*The graph shows fluctuations in wind speed over the recorded period.*
+
+### 🔍 Correlation Heatmap
+
+![Correlation Heatmap](images/correlation_heatmap.png)
+
+*A heatmap to visualize the correlation between features, helping in feature selection.*
+
+---
+
+## 🧠 Model Architecture
+
+We use a Recurrent Neural Network (RNN) with LSTM cells, which are ideal for time-series prediction tasks.
+
+### Model Highlights:
+
+- Scaled and reshaped data into time sequences.
+- Used 80% for training and 20% for testing.
+- LSTM layers followed by Dense output layer.
+- Trained using Mean Squared Error (MSE) loss.
+
+### 📉 Training Loss Curve
+
+![Loss Curve](images/training_loss_curve.png)
+
+*Loss function converges steadily over training epochs.*
+
+---
+
+## 🧪 Results
+
+The model performs well in predicting short-term wind speed and power with minimal error.
+
+### 📈 Predicted vs Actual Wind Speed
+
+![Prediction vs Actual](images/predicted_vs_actual.png)
+
+*The model captures the trend of actual wind speeds accurately.*
+
+---
+
+## 🗂️ Files Included
+
+- `research_DL.ipynb`: Full Jupyter notebook with code, training, and evaluation.
+- `Wind Data.csv`: The dataset containing historical wind measurements.
+- `README.md`: This file.
+- `requirements.txt`: Python package dependencies.
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/wind-energy-forecasting.git
+cd wind-energy-forecasting
