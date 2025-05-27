@@ -42,13 +42,6 @@ We use a Recurrent Neural Network (RNN) with LSTM cells, which are ideal for tim
 - LSTM layers followed by Dense output layer.
 - Trained using Mean Squared Error (MSE) loss.
 
-### 📉 Training Loss Curve
-
-![Loss Curve](images/training_loss_curve.png)
-
-*Loss function converges steadily over training epochs.*
-
----
 
 ## 🧪 Results
 
@@ -78,20 +71,6 @@ This project aims to:
 
 The dataset contains time-series wind speed measurements. Here's a quick look at the data and its characteristics.
 
-### 📈 Wind Speed Over Time
-
-![Wind Speed Graph](images/wind_speed_over_time.png)
-
-*The graph shows fluctuations in wind speed over the recorded period.*
-
-### 🔍 Correlation Heatmap
-
-![Correlation Heatmap](images/correlation_heatmap.png)
-
-*A heatmap to visualize the correlation between features, helping in feature selection.*
-
----
-
 ## 🧠 Model Architecture
 
 We use a Recurrent Neural Network (RNN) with LSTM cells, which are ideal for time-series prediction tasks.
@@ -102,14 +81,6 @@ We use a Recurrent Neural Network (RNN) with LSTM cells, which are ideal for tim
 - Used 80% for training and 20% for testing.
 - LSTM layers followed by Dense output layer.
 - Trained using Mean Squared Error (MSE) loss.
-
-### 📉 Training Loss Curve
-
-![Loss Curve](images/training_loss_curve.png)
-
-*Loss function converges steadily over training epochs.*
-
----
 
 ## 🧪 Results
 
@@ -138,33 +109,3 @@ The model performs well in predicting short-term wind speed and power with minim
 - `requirements.txt`: Python package dependencies.
 
 ---
-
-## ⚙️ Setup Instructions
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/wind-energy-forecasting.git
-cd wind-energy-forecasting
-)
-
-*The model captures the trend of actual wind speeds accurately.*
-
----
-
-## 🗂️ Files Included
-
-- `research_DL.ipynb`: Full Jupyter notebook with code, training, and evaluation.
-- `Wind Data.csv`: The dataset containing historical wind measurements.
-- `README.md`: This file.
-- `requirements.txt`: Python package dependencies.
-
----
-
-## ⚙️ Setup Instructions
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/wind-energy-forecasting.git
-cd wind-energy-forecasting
